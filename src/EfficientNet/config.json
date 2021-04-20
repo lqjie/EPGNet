@@ -1,0 +1,26 @@
+{
+    "exp_name": "epg_enet_b0_juni04",
+    "model_name":"epg_enet_b0",
+    "data_split":"data_split_80k",
+
+    "is_sca":1,
+    "GPU": 1,
+    "LR": 1e-8,
+    "eta_max":0.001,
+    "batch_size":32,
+    "n_epochs": 30,
+    "T_up":2,
+    "CURRICULUM": 0,
+    "CL_path":"",
+
+    "cover_dir": "E:/lqj/steg/ALASKA/ALASKA_v2_JPG_256_QF75_GrayScale_dec/",
+    "stego_dir": "E:/lqj/steg/alaska_jpeg/juni75/stego_juni04_dec/",
+    "cover_beta_dir": "E:/lqj/steg/alaska_jpeg/juni75/cover_juni04_beta/",
+    "stego_beta_dir": "E:/lqj/steg/alaska_jpeg/juni75/juni04_beta/",
+
+    "verbose": 1,
+    "verbose_step": 1,
+    "validation_scheduler":0,
+    "step_scheduler":1
+
+}
